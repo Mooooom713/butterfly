@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Package from '@/pages/Package'
-import Right from '@/pages/Right'
+import Package from '@/pages/Package/Package'
+import Right from '@/pages/Right/Right'
 
 Vue.use(Router)
 
