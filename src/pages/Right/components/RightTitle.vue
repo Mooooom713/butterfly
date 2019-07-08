@@ -16,7 +16,22 @@ export default {
   .right-title-block{
     width: 100%;
     background: #f3f3f3;
-    height: 83pt;
+    height: 81.34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h3{
+      font-size: 1.1rem;
+      font-weight: 550;
+      margin: 8px 0px 0px 0px;
+      color: #333333;
+      font-family: 'PingFang-SC-Medium';
+    }
+    p{
+      margin: 0;
+      color: #707070;
+    }
   }
 </style>
 

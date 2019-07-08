@@ -3,24 +3,26 @@
     <van-nav-bar title="权益详情" left-arrow />
     <right-title></right-title>
     <div class="right-menu-block">
-      <p>代言人套餐</p>
-      <p>购超值商品套餐(任选其一)尊享代言人权益</p>
+      <right-menu></right-menu>
     </div>
     <div class="right-detail-block">
-      <p>
-        8大权益
-      </p>
+      <right-detail></right-detail>
     </div>
+   <button>获取分红资格</button>
   </div>
 </template>
 
 <script>
 import RightTitle from './components/RightTitle'
+import RightMenu from './components/RightMenu'
+import RightDetail from './components/RightDetail'
 
 export default {
   name: "Right",
   components: {
-    RightTitle
+    RightTitle,
+    RightMenu,
+    RightDetail
   },
   data() {
     return {};
@@ -30,7 +32,6 @@ export default {
 
 <style scoped lang="scss">
   @import "../../scss/navBar.scss";
-
   .right-wrap{
     width: 100%;
   }
